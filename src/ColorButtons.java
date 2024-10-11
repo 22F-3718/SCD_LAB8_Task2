@@ -22,7 +22,7 @@ public class ColorButtons {
         redButton.setBackground(Color.RED);
         redButton.setForeground(Color.white);
         redButton.setOpaque(true);
-        redButton.setBounds(40,40,80,80);
+        redButton.setBounds(150,40,80,80); //Changed Position of Buttons
         redButton.setFont(new FontUIResource("Times New Roman",1,12));
         redButton.setBorderPainted(false);
 
@@ -30,14 +30,15 @@ public class ColorButtons {
         greenButton.setBackground(Color.GREEN);
         greenButton.setForeground(Color.white);
         greenButton.setOpaque(true);
-        greenButton.setBounds(150,40,80,80);
+        greenButton.setBounds(40,40,80,80); //Changed Position of Buttons
+       
         greenButton.setBorderPainted(false);
 
         JButton blueButton = new JButton("Blue");
         blueButton.setBackground(Color.BLUE);
         blueButton.setForeground(Color.white);
         blueButton.setOpaque(true);
-        blueButton.setBounds(250,40,80,80);
+        blueButton.setBounds(250,40,80,80); //This remains same
         blueButton.setBorderPainted(false);
 
         frame.add(redButton);
